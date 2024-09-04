@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import sklearn
 
 # Load the data
-df = pd.read_excel('/Users/manisha/Desktop/Data Sc Project/Contrast_compile_synth_cat_f.xlsx', sheet_name='Synth_Pre')
+df = pd.read_excel('/path/to/your/dataset.xlsx')
 
 # Prepare the data
 X = df.drop(["Names", 'AGE', "Contrast"], axis=1)
